@@ -1,0 +1,10 @@
+[t25]
+FileName1=t24_users.json
+URL1=https://reqres.in/api/users?page=2
+Total=1
+SnapshotXmlFile=snapshot_24.xml
+RequestHeaderFile=t25_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t25_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

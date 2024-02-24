@@ -1,0 +1,276 @@
+[API Trapper      ( e54:1f6c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (1fe8:1e88)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (3384:1194)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (3384:31fc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3384:31fc)] Load Network Traffic Analyzers:
+[Network Analyzer (3384:31fc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3384:31fc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (3384:31fc)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3384:31fc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (3384:31fc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (3384:31fc)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3384:31fc)]     Analyzer Module: local_server (value=)
+[Network Analyzer (3384:31fc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3384:162c)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.196.36:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.195.99:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (3384:2ddc)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3384:2ddc)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.183.234:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (3384:1bec)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:1bec)] SSLAccept(ssl_id = 2549696931776 = 00000251A5C7A7C0) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:1bec)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384: 864)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384: 864)] SSLAccept(ssl_id = 2549697095328 = 00000251A5CA26A0) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384: 864)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:2100)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:2100)] SSLAccept(ssl_id = 2549697160400 = 00000251A5CB24D0) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:2100)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384: 930)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3384:162c)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid=  6)  PROXIED!
+[Net An. Error    (3384: 930)] SSLAccept(ssl_id = 2549697294464 = 00000251A5CD3080) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384: 930)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.183.234:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (3384: 664)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384: 664)] SSLAccept(ssl_id = 2549697357360 = 00000251A5CE2630) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384: 664)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:337c)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:337c)] SSLAccept(ssl_id = 2549697002864 = 00000251A5C8BD70) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:337c)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:162c)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.76.35:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.251.12.188:5228   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (3384:3270)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3384:3270)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3384:162c)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid:  8) Connection Terminated (by Client)
+[API Trapper      (1510:3038)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (3384:18a8)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3384:18a8)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:162c)]   (Sid:  9) Client -> Server @ : 156 bytes (SSL)
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.183.234:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (3384:162c)]   (Sid:  9) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (3384:162c)]   (Sid:  9) Server -> Client : 67 bytes (SSL)
+[Network Analyzer (3384:162c)]   (Sid:  9) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (3384: b30)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384: b30)] SSLAccept(ssl_id = 2549696416064 = 00000251A5BFC940) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384: b30)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:162c)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 172.217.31.202:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.195.42:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (3384:2970)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3384:2970)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.183.234:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.205.238:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (3384:224c)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:224c)] SSLAccept(ssl_id = 2549697400976 = 00000251A5CED090) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:224c)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384: ea0)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384: ea0)] SSLAccept(ssl_id = 2549697146048 = 00000251A5CAECC0) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384: ea0)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:2b20)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:2b20)] SSLAccept(ssl_id = 2549697591120 = 00000251A5D1B750) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:2b20)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:162c)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.183.234:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (3384:20b8)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:20b8)] SSLAccept(ssl_id = 2549701459712 = 00000251A60CBF00) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:20b8)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:162c)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (3384:182c)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:182c)] SSLAccept(ssl_id = 2549701452368 = 00000251A60CA250) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:182c)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.183.234:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (3384:2554)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:2554)] SSLAccept(ssl_id = 2549697591120 = 00000251A5D1B750) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:2554)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (3384:2600)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:2600)] SSLAccept(ssl_id = 2549701532544 = 00000251A60DDB80) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:2600)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:215c)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:215c)] SSLAccept(ssl_id = 2549701594960 = 00000251A60ECF50) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:215c)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:162c)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.183.234:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (3384: 7c8)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384: 7c8)] SSLAccept(ssl_id = 2549696948176 = 00000251A5C7E7D0) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384: 7c8)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:162c)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.76.35:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (3384:1f2c)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3384:1f2c)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (3384:162c)] "POST /service/update2/json?cup2key=13:Fj6q4ii_xJgCU3WKWOAdj6Fo9MRUpKqBx_4_S7ovISQ&cup2hreq=984e7c71bdd38929774d6fb5be3a0cbf77d6145aea3fcf3710e96d2673eeaba8"
+[Network Analyzer (3384:162c)]   (Sid: 21) Client -> Server @ : 1333 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3384:162c)]   (Sid: 21) Client -> Server @ : 8555 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3384:162c)]   (Sid: 21) Server -> Client : 1148 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3384:162c)]   (Sid: 21) Server -> Client : 916 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3384:162c)]   (Sid: 21) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.193.170:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (3384:2b78)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:2b78)] SSLAccept(ssl_id = 2549697097280 = 00000251A5CA2E40) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:2b78)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:162c)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.193.170:443   (Service=)  (Sid= 23)  PROXIED!
+[API Trapper      (3274:20fc)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (3384:2c8c)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:2c8c)] SSLAccept(ssl_id = 2549697097280 = 00000251A5CA2E40) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:2c8c)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:162c)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (3384:1cc4)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:1cc4)] SSLAccept(ssl_id = 2549697097280 = 00000251A5CA2E40) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:1cc4)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:197c)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.193.170:443   (Service=)  (Sid= 27)  PROXIED!
+[Net An. Error    (3384:197c)] SSLAccept(ssl_id = 2549701410944 = 00000251A60C0080) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:197c)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:2f64)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:2f64)] SSLAccept(ssl_id = 2549701566224 = 00000251A60E5F10) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:2f64)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (3384:1d4c)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:1d4c)] SSLAccept(ssl_id = 2549701660592 = 00000251A60FCFB0) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:1d4c)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:213c)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:213c)] SSLAccept(ssl_id = 2549701765008 = 00000251A6116790) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:213c)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:162c)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.193.170:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (3384: 524)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384: 524)] SSLAccept(ssl_id = 2549696439776 = 00000251A5C025E0) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384: 524)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:162c)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.193.170:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (3384:27fc)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:27fc)] SSLAccept(ssl_id = 2549696439776 = 00000251A5C025E0) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:27fc)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384: b54)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384: b54)] SSLAccept(ssl_id = 2549701442208 = 00000251A60C7AA0) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384: b54)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (3384:1284)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:1284)] SSLAccept(ssl_id = 2549697424736 = 00000251A5CF2D60) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:1284)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:28d4)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3384:28d4)] SSLAccept(ssl_id = 2549701780928 = 00000251A611A5C0) Failed, ctx = 00000251A5C57D30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (3384:28d4)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3384:162c)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid: 31) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid: 32) Connection Terminated (by Client)
+[Network Analyzer (3384:162c)]   (Sid: 33) Connection Terminated (by Client)
+[Network Analyzer (3384:31fc)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer (3384:31fc)] Request Connection: Remote Server @ 142.250.183.226:443   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (3384:2ab4)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3384:2ab4)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)

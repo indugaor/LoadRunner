@@ -1,0 +1,10 @@
+[t70]
+FileName1=t69.json
+URL1=https://reqres.in/api/users/2
+Total=1
+SnapshotXmlFile=snapshot_69.xml
+RequestHeaderFile=t70_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t70_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

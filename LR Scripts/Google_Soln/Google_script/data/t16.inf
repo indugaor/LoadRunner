@@ -1,0 +1,10 @@
+[t16]
+FileName1=t7.html
+URL1=https://android.clients.google.com/checkin
+Total=1
+SnapshotXmlFile=snapshot_16.xml
+RequestHeaderFile=t16_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t16_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

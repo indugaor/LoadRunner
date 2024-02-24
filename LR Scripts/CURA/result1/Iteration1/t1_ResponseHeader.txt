@@ -1,0 +1,27 @@
+HTTP/2.0 200
+Status: 200
+content-type: application/json; charset=utf-8
+x-content-type-options: nosniff
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Wed, 07 Feb 2024 10:21:46 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+content-security-policy: require-trusted-types-for 'script';report-uri /_/IdentityListAccountsHttp/cspreport
+content-security-policy: script-src 'report-sample' 'nonce-LyCFjDW5y5kfhZkduvcXjw' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/IdentityListAccountsHttp/cspreport;worker-src 'self'
+content-security-policy: script-src 'unsafe-inline' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/IdentityListAccountsHttp/cspreport/allowlist
+permissions-policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+cross-origin-opener-policy: same-origin
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+reporting-endpoints: default="/_/IdentityListAccountsHttp/web-reports?context=eJzjMtDikmLw1ZBiOHxtB5Meyy0mIyCe2_2UaSEQH4x7znQUiHf4eLA4pc9gDQBiIW6OXZt717EJfGibmAAAnaoW9Q"
+content-encoding: gzip
+server: ESF
+x-xss-protection: 0
+set-cookie: SIDCC=ABTWhQG3gwUB5vG2f4GzF-PSHNPlwEhtBu_53bqmaSgE9RcAqtO58AEB6ruSvY1PVPR6CTWZxfA; expires=Thu, 06-Feb-2025 10:21:46 GMT; path=/; domain=.google.com; priority=high
+set-cookie: __Secure-1PSIDCC=ABTWhQE0CvUGLKOAdxu71wKGcyktvwcu1EWBHkGNMyCwBuV0mT5UnKvlxNRSZXhx7yV2d9K27A; expires=Thu, 06-Feb-2025 10:21:46 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high
+set-cookie: __Secure-3PSIDCC=ABTWhQH2FNfIDh_zr6e9l2JVAN2XqH4wAGu26keiNfsRrLAul8YGCbRsB9jFSpkVN5hRA6uIhg; expires=Thu, 06-Feb-2025 10:21:46 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none
+set-cookie: SIDCC=ABTWhQGy0dgAuPrmuygROp78ZoZMUqpTSfr8SdaSk4uzCWv54Qe0wpZNYgMIV8A5T3ihLSWg35w; expires=Thu, 06-Feb-2025 10:21:46 GMT; path=/; domain=.google.com; priority=high
+set-cookie: __Secure-1PSIDCC=ABTWhQG9bG9jiSESo3LzmOB2ckpJzPUI620vWbq_9LRwq1smL8hShnlePKFZzD9oJoS9yoCT0g; expires=Thu, 06-Feb-2025 10:21:46 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high
+set-cookie: __Secure-3PSIDCC=ABTWhQE6d-QRXKcHCBEemp0iMPjdEbErvMqzAilzy8jWAAYSSmr9FUCiUIKAk2FVwwS0psWk_g; expires=Thu, 06-Feb-2025 10:21:46 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

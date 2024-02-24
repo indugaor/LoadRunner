@@ -1,0 +1,14 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: command",
+                "infFile": "t2.inf",
+                "time": 1707299085646
+            }
+        ],
+        "transactions": []
+    }
+]

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LR Scripts\BestPratices\UITPS1
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\lr scripts\bestpratices\uitps1\\logfile.log
+d:\lr scripts\bestpratices\uitps1\\combined_UITPS1.c
+d:\lr scripts\bestpratices\uitps1\\pre_cci.c

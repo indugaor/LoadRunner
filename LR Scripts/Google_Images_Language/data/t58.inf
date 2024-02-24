@@ -1,0 +1,11 @@
+[t58]
+FileName1=t58.json
+URL1=https://unpkg.com/react@17.0.0/?meta
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_57.xml
+RequestHeaderFile=t58_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t58_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

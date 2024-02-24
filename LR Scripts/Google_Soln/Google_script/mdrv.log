@@ -1,0 +1,58 @@
+Virtual User Script started at: 07-02-2024 15:07:39
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\LR Scripts\Google_Soln\Google_script\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(8): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(10): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(10): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_url("seed") started  	[MsgId: MMSG-26355]
+Action.c(12): HTML parsing not performed for Content-Type "application/octet-stream" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=121"  	[MsgId: MMSG-26547]
+Action.c(12): Downloading resource "https://www.gstatic.com/og/_/ss/k=og.qtm.8RUPaHb7e5o.L.W.O/m=qcwid/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTungzasoekTaLKrPFUaQFpakqDmnA" (specified by argument number 8)  	[MsgId: MMSG-26576]
+Action.c(12): Downloading resource "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.ZEEp2pdSHOQ.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald,q_dg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTvRRKYp7I5vTn-AtFvme6Qlo6hq9Q" (specified by argument number 11)  	[MsgId: MMSG-26576]
+Action.c(12): Downloading resource "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.GsbA68hXs80.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo899t-H8Lxb3OqzMDuPn6TV_i36ag/cb=gapi.loaded_0" (specified by argument number 14)  	[MsgId: MMSG-26576]
+Action.c(12): web_url("seed") was successful, 488575 body bytes, 3012 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(24): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(26): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(26): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(28): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(28): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(32): web_custom_request("log") started  	[MsgId: MMSG-26355]
+Action.c(32): Downloading resource "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlgZ1SJEvRn2_isOlZ5L7hfWkcnd-87VcUEcC7Rt_eE-UFwh4-u1N4j4wC&s=10" (specified by argument number 12)  	[MsgId: MMSG-26576]
+Action.c(32): Downloading resource "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfwK31jSJoDS3wX4ZH2v5k49PLfabZSu90SO1eas4kL7IzpqiVbtXHE2Q&s=10" (specified by argument number 15)  	[MsgId: MMSG-26576]
+Action.c(32): Downloading resource "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt4Zvuqg17L8xiVfbOLSa2Ljl60znIOJHhMXuDqX70yrRBHrTowpAOX2w&s=10" (specified by argument number 18)  	[MsgId: MMSG-26576]
+Action.c(32): Downloading resource "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc7aSvkglLYBXhrgHtoijLpCK_HKD_Zss9ro9w7fc&s=10" (specified by argument number 21)  	[MsgId: MMSG-26576]
+Action.c(32): Downloading resource "https://lh5.googleusercontent.com/p/AF1QipORjSliv1rRditQBc53zc97FH9h9Gm-56kJvMQH=w92-h92-n-k-no" (specified by argument number 24)  	[MsgId: MMSG-26576]
+Action.c(32): web_custom_request("log") was successful, 16442 body bytes, 4675 header bytes  	[MsgId: MMSG-26386]
+Action.c(53): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(53): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(55): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(55): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(57): web_custom_request("json") started  	[MsgId: MMSG-26355]
+Action.c(57): Downloading resource "https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2" (specified by argument number 12)  	[MsgId: MMSG-26576]
+Action.c(57): Downloading resource "https://fonts.gstatic.com/s/i/productlogos/googleg/v6/24px.svg" (specified by argument number 15)  	[MsgId: MMSG-26576]
+Action.c(57): Downloading resource "https://fonts.gstatic.com/s/i/productlogos/youtube/v9/192px.svg" (specified by argument number 18)  	[MsgId: MMSG-26576]
+Action.c(57): Downloading resource "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNDASGQlL1An4iaKj4hIFDUqFnlIhoEC7x3ryJrM=?alt=proto" (specified by argument number 21)  	[MsgId: MMSG-26576]
+Action.c(57): Downloading resource "https://id.google.com/verify/ANsg4T5fK_5WuGLym8XC5yNdfQYpMo4IWWxtzvIICDwzemzkwyzb6OLpKlrl3TVEuzG__-FuHc0KZ23N8y2Bqehksp1arJXiVLp_NVGyX5QxjYtqg7bEfQ" (specified by argument number 24)  	[MsgId: MMSG-26576]
+Action.c(57): Warning -26630: HTTP Status-Code=400 (Bad Request) for "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNDASGQlL1An4iaKj4hIFDUqFnlIhoEC7x3ryJrM=?alt=proto"  	[MsgId: MWAR-26630]
+Action.c(57): web_custom_request("json") highest severity level was "warning", 23268 body bytes, 4454 header bytes  	[MsgId: MMSG-26388]
+Action.c(96): web_custom_request("json_2") started  	[MsgId: MMSG-26355]
+Action.c(96): web_custom_request("json_2") was successful, 171 body bytes, 703 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

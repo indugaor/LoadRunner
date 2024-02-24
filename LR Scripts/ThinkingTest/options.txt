@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LR Scripts\ThinkingTest
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\lr scripts\thinkingtest\\logfile.log
+d:\lr scripts\thinkingtest\\combined_ThinkingTest.c
+d:\lr scripts\thinkingtest\\pre_cci.c

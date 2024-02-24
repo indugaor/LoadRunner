@@ -1,0 +1,11 @@
+[t57]
+FileName1=t57_package.json
+URL1=https://unpkg.com/@babel/core@7.23.9/package.json
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_56.xml
+RequestHeaderFile=t57_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t57_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,9 @@
+POST /reports?ts=1707215403&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2BbYArQkCv2J4hql0uhtlnmU6XizbRqjKyfuYf2SZbgw%3D HTTP/1.1
+Host: nel.heroku.com
+Connection: keep-alive
+Content-Length: 408
+Content-Type: application/reports+json
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+

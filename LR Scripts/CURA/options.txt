@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LR Scripts\CURA
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\lr scripts\cura\\logfile.log
+d:\lr scripts\cura\\combined_CURA.c
+d:\lr scripts\cura\\pre_cci.c

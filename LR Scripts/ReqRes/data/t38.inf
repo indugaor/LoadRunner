@@ -1,0 +1,10 @@
+[t38]
+FileName1=t36_core.json
+URL1=https://data.jsdelivr.com/v1/package/npm/@babel/core
+Total=1
+SnapshotXmlFile=snapshot_36.xml
+RequestHeaderFile=t38_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t38_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

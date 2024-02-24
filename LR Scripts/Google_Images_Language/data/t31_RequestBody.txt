@@ -1,0 +1,5 @@
+"[{\"age\":3,\"body\":{\"elapsed_time\":10455,\"method\":\"GET\",\"phase\":\"application\",\"pr"
+"otocol\":\"http/1.1\",\"referrer\":\"https://reqres.in/\",\"sampling_fraction\":0.005,\"server"
+"_ip\":\"104.26.10.213\",\"status_code\":200,\"type\":\"ok\"},\"type\":\"network-error\",\"url\""
+":\"https://reqres.in/css/app.css\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+"AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\"}]"

@@ -1,0 +1,13 @@
+[t6]
+FileName1=t6.json
+URL1=https://update.googleapis.com/service/update2/json?cup2key=13:EPGbRGPNlfk-IyPeH4_DfQoCt6TKJEKwQU2-N6vvHN0&cup2hreq=429fecd3f446242d0908e0676ec3b44fbb10c874827029c28c61537550653986
+Total=2
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=t6_RequestBody.txt
+ResponseHeaderFile=t6_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_6.xml
+FileName2=t6_jquery-3.2.1.min.html
+URL2=https://code.jquery.com/jquery-3.2.1.min.js
+[ProtocolInfo]
+ProtocolId=QTWeb

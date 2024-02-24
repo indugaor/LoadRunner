@@ -1,0 +1,10 @@
+[t20]
+FileName1=t14.htm
+URL1=https://reqres.in/
+Total=1
+SnapshotXmlFile=snapshot_19.xml
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t20_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

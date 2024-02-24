@@ -1,0 +1,518 @@
+[API Trapper      (2640:2d14)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (2e40: 9b4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 470:20d4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 470:21f8)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 470:21f8)] Load Network Traffic Analyzers:
+[Network Analyzer ( 470:21f8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 470:21f8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 470:21f8)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 470:21f8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 470:21f8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 470:21f8)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 470:21f8)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 470:21f8)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 470:1a60)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 74.125.200.84:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.195.99:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.196.36:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.182.106:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( 470: f5c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470: f5c)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 470: a28)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470: a28)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 470:20fc)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:20fc)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:1a60)]   (Sid:  1) Client -> Server @ : 2869 bytes (SSL)(Service=HTTP)
+[Web Request      ( 470:1a60)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=121"   
+[Network Analyzer ( 470:1a60)]   (Sid:  2) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      ( 470:1a60)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer ( 470:1a60)]   (Sid:  1) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.182.106:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( 470:32d0)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:32d0)] SSLAccept(ssl_id = 2703254106128 = 0000027566803010) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:32d0)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:1a60)]   (Sid:  1) Server -> Client : 2963 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid:  1) Server -> Client : 245 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid:  1) Server -> Client : 41 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid:  1) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid:  2) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:2374)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:2374)] SSLAccept(ssl_id = 2703254254656 = 0000027566827440) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:2374)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.196.10:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( 470:2e08)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:2e08)] SSLAccept(ssl_id = 2703253440848 = 0000027566760950) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:2e08)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( 470:304c)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:304c)] SSLAccept(ssl_id = 2703257916576 = 0000027566BA54A0) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:304c)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:2e54)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:2e54)] SSLAccept(ssl_id = 2703258059520 = 0000027566BC8300) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:2e54)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:3248)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:3248)] SSLAccept(ssl_id = 2703258157408 = 0000027566BE0160) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:3248)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:1a60)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:1a60)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.196.10:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( 470:1a60)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer ( 470:2ec4)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:2ec4)] SSLAccept(ssl_id = 2703258164848 = 0000027566BE1E70) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:2ec4)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:1a60)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.251.12.188:5228   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.76.35:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.196.14:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( 470:1a60)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:1714)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[API Trapper      (1010:2e20)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 470:2874)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:2874)] SSLAccept(ssl_id = 2703258179728 = 0000027566BE5890) Failed, ctx = 0000027566794100, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    ( 470:2874)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:2c38)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:2c38)] SSLAccept(ssl_id = 2703258194608 = 0000027566BE92B0) Failed, ctx = 00000275667C7BC0, err = "SSLv3/TLS write finished", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    ( 470:2c38)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:1a60)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.196.14:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer ( 470:1a60)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.196.10:443   (Service=)  (Sid= 15)  PROXIED!
+[Net An. Error    ( 470:1714)] SSLAccept(ssl_id = 2703258142528 = 0000027566BDC740) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:1714)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:2d48)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:2d48)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( 470:1a60)] "POST /checkin"   
+[Network Analyzer ( 470:1a60)]   (Sid: 14) Client -> Server @ : 512 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 172.217.163.174:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:3198)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 172.217.163.174:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:1a60)]   (Sid: 14) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 14) Server -> Client : 62 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 14) Server -> Client : 24 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 14) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 172.217.163.174:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:2878)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 172.217.163.174:443   (Service=)  (Sid= 19)  PROXIED!
+[Net An. Error    ( 470:3198)] SSLAccept(ssl_id = 2703258187168 = 0000027566BE75A0) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:2878)] SSLAccept(ssl_id = 2703258260160 = 0000027566BF92C0) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:3198)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 470:2878)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:1c48)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:1c48)] SSLAccept(ssl_id = 2703258237840 = 0000027566BF3B90) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:1c48)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:30cc)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:30cc)] SSLAccept(ssl_id = 2703258230400 = 0000027566BF1E80) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:30cc)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:282c)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:282c)] SSLAccept(ssl_id = 2703258245280 = 0000027566BF58A0) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:282c)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 172.217.163.174:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 172.217.163.174:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:14d4)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:1a60)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer ( 470:3100)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 172.217.163.174:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 172.217.163.174:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:1958)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 172.217.163.174:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 172.217.163.174:443   (Service=)  (Sid= 25)  PROXIED!
+[Net An. Error    ( 470:14d4)] SSLAccept(ssl_id = 2703258275040 = 0000027566BFCCE0) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:3100)] SSLAccept(ssl_id = 2703258222960 = 0000027566BF0170) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:14d4)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 470:3100)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 470:1958)] SSLAccept(ssl_id = 2703258297360 = 0000027566C02410) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:1958)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:1418)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470: af0)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:24f8)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:1a60)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:1a60)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 172.217.163.174:443   (Service=)  (Sid= 26)  PROXIED!
+[Net An. Error    ( 470:1418)] SSLAccept(ssl_id = 2703258319680 = 0000027566C07B40) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470: af0)] SSLAccept(ssl_id = 2703258327120 = 0000027566C09850) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:1418)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 470:24f8)] SSLAccept(ssl_id = 2703258172288 = 0000027566BE3B80) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470: af0)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 470:24f8)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:2fcc)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:1a60)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:1a60)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 172.217.163.174:443   (Service=)  (Sid= 27)  PROXIED!
+[Net An. Error    ( 470:2fcc)] SSLAccept(ssl_id = 2703258164848 = 0000027566BE1E70) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:2fcc)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:2f04)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:2f04)] SSLAccept(ssl_id = 2703258142528 = 0000027566BDC740) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:2f04)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:1a60)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.182.106:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 172.217.31.202:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer ( 470: b90)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.205.238:443   (Service=)  (Sid= 30)  PROXIED!
+[Net An. Error    ( 470: b90)] SSLAccept(ssl_id = 2703258164848 = 0000027566BE1E70) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470: b90)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21d4)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.196.10:443   (Service=)  (Sid= 31)  PROXIED!
+[Net An. Error    ( 470:21d4)] SSLAccept(ssl_id = 2703258179728 = 0000027566BE5890) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:21d4)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:227c)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:227c)] SSLAccept(ssl_id = 2703258986256 = 0000027566CAA710) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:227c)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:3050)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:3050)] SSLAccept(ssl_id = 2703258956496 = 0000027566CA32D0) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:3050)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:1a60)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 31) Connection Terminated (by Client)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.183.227:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 192.178.57.3:443   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer ( 470:16b8)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:16b8)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Web Request      ( 470:1a60)] "GET /s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2"   
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 32) Server -> Client : 1033 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.183.227:443   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer ( 470:3024)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:3024)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 470:2cec)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:2cec)] SSLAccept(ssl_id = 2703258993696 = 0000027566CAC420) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:2cec)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470: 528)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470: 528)] SSLAccept(ssl_id = 2703258941616 = 0000027566C9F8B0) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470: 528)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Web Request      ( 470:1a60)] "GET /verify/ANsg4T5npa90LYh-UwU13kOCeQNZQ6udWSjNpqVyGgzlBZkyj44v2o5A_ZJPp4ThURcWrxVZwssBU53yrlLtUjPYs_-2DxB46e85sK7YQb0ebwzKQ-Effg"   
+[Network Analyzer ( 470:1a60)]   (Sid: 33) Client -> Server @ : 984 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer ( 470:2ea4)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:2ea4)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( 470:1a60)] "GET /s/i/productlogos/googleg/v6/24px.svg"   
+[Network Analyzer ( 470:1a60)]   (Sid: 36) Client -> Server @ : 612 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 36) Server -> Client : 1279 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:22cc)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:22cc)] SSLAccept(ssl_id = 2703258978816 = 0000027566CA8A00) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:22cc)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:300c)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:300c)] SSLAccept(ssl_id = 2703259008576 = 0000027566CAFE40) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:300c)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:1a60)]   (Sid: 33) Server -> Client : 1033 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 34) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 35) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 37) Connection Terminated (by Client)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.183.238:443   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 172.217.163.174:443   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:1a60)]   (Sid: 38) Connection Terminated (by Client)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.183.238:443   (Service=)  (Sid= 41)  PROXIED!
+[Network Analyzer ( 470: fa0)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.183.238:443   (Service=)  (Sid= 42)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:1ee4)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.183.238:443   (Service=)  (Sid= 43)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.193.142:443   (Service=)  (Sid= 44)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.193.142:443   (Service=)  (Sid= 45)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.193.142:443   (Service=)  (Sid= 46)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470: ecc)]   (Sid: 41) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.193.142:443   (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.77.174:443   (Service=)  (Sid= 48)  PROXIED!
+[Net An. Error    ( 470:1ee4)] SSLAccept(ssl_id = 2703258941616 = 0000027566C9F8B0) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:1ee4)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:26e8)]   (Sid: 42) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.183.238:443   (Service=)  (Sid= 49)  PROXIED!
+[Network Analyzer ( 470: fa0)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 470: ecc)]   (Sid: 41) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 470:26e8)]   (Sid: 42) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( 470:1a60)] "GET /shopping?q=tbn:ANd9GcT5c7Xswi2aPi9-a36nGwNCuEAuOPriQD03kY0CpXNgAQzWTiIZVxqdMCSTm_cqFyHxGnGWwpidzfoEFe_SMcbBroXldfqnsVx7ueH9evnl4fC2MAZU2Sw"   
+[Network Analyzer ( 470:1a60)]   (Sid: 39) Client -> Server @ : 723 bytes (SSL)(Service=HTTP)
+[Web Request      ( 470:1a60)] "GET /shopping?q=tbn:ANd9GcS3oWfbPM9toNWg9YmqiMgaCut2nq0kRkSEIX4RhIrZYSYuPlBumlM0VECdsEpcw_ug2mgsXAWuC--B_lLLJxoNj4_PcPljd3z5GhEml0n_a2xC-Wl4pHF2zA"   
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Client -> Server @ : 726 bytes (SSL)(Service=HTTP)
+[Web Request      ( 470:1a60)] "GET /shopping?q=tbn:ANd9GcQ7xg6V0VpS7yqCscrggFJunl-7YW9VNR2lHHYY6WAwxUcaOYqiw8mTNeW67agVeVuPXcpqY5943ZmqGR5x1v3SqiNXBJlNwQDZImxTnQXsA53X2fJIZxU4"   
+[Network Analyzer ( 470:1a60)]   (Sid: 42) Client -> Server @ : 724 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 39) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 39) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 39) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Server -> Client : 844 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1734)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:1a60)]   (Sid: 39) Server -> Client : 896 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 42) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 42) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 42) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 42) Server -> Client : 350 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1734)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.77.174:443   (Service=)  (Sid= 50)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.77.174:443   (Service=)  (Sid= 51)  PROXIED!
+[Web Request      ( 470:1a60)] "GET /shopping?q=tbn:ANd9GcQEzQGG-8hg1RIe1HI8DoK2rt-MlFjd99kEhaKFmYEl61yi9qP568IFXXP5CNFAXITlbo1tAidq494e2UAwNpVeVnPakoXTG2XAE2RiMN-l"   
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Client -> Server @ : 712 bytes (SSL)(Service=HTTP)
+[Web Request      ( 470:1a60)] "GET /shopping?q=tbn:ANd9GcQgu4LVz1s5c--4YevzPdDVoqz0pB164q8xwCviRHCZRK-Sfj0gKLiurWZGr8WtiFPJQmzTbvQhBQzCg3Y6_0rpeAqnCk2nTt2ynzGdMJVxagRE6QD9-YJsZw"   
+[Network Analyzer ( 470:1a60)]   (Sid: 39) Client -> Server @ : 726 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 39) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1f6c)]   (Sid: 44) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:1a60)]   (Sid: 39) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Server -> Client : 464 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.77.174:443   (Service=)  (Sid= 52)  PROXIED!
+[Network Analyzer ( 470:1a60)]   (Sid: 39) Server -> Client : 1230 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 172.217.163.174:443   (Service=)  (Sid= 53)  PROXIED!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470: b24)]   (Sid: 45) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.77.174:443   (Service=)  (Sid= 54)  PROXIED!
+[Net An. Error    ( 470:1f6c)] SSLAccept(ssl_id = 2703258686592 = 0000027566C61480) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470: b24)] SSLAccept(ssl_id = 2703258671712 = 0000027566C5DA60) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:1f6c)]   (Sid: 44) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 470: b24)]   (Sid: 45) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:  8c)]   (Sid: 46) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.195.195:443   (Service=)  (Sid= 55)  PROXIED!
+[Net An. Error    ( 470:  8c)] SSLAccept(ssl_id = 2703258694032 = 0000027566C63190) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:  8c)]   (Sid: 46) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470: 884)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470: 884)] SSLAccept(ssl_id = 2703258656832 = 0000027566C5A040) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470: 884)]   (Sid: 47) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      ( 470:1a60)] "GET /shopping?q=tbn:ANd9GcSlwA76_8oywJMzH7ceJblvZRqwgGw6nx-HUJRDexKcsEgSmw2GRe57S-yiCFSMTHyYOvr1KEiiV7Nre58A0lUZ2uK2XojaDiDpd_arFK0"   
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Client -> Server @ : 711 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:11bc)]   (Sid: 48) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:11bc)]   (Sid: 48) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Server -> Client : 542 bytes (SSL) (Service=HTTP)
+[Web Request      ( 470:1a60)] "GET /shopping?q=tbn:ANd9GcS1fCudkkQHysMFB_jzUwAYu1LJOgj59pbGZcOPbdUWavkqp-I3BviTRWqmtrov_ODEfZpEuIBD01j5P_2UHiLcW2ywXg9irEd4cQ06o3jZZwbrHCFvtU4G"   
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Client -> Server @ : 724 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 784 bytes (SSL) (Service=HTTP)
+[Web Request      ( 470:1a60)] "GET /shopping?q=tbn:ANd9GcQZV9sULUPfojWfcOlcJxZA6bqOkozqP6u5EOwf0uf4ABdbXZLcjSX9a84riDEYOz8kPuYH8RkjmTOv5b5Dk8BIRH9TzHEzGSzLj7w4YSo"   
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Client -> Server @ : 711 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Web Request      ( 470:1a60)] "GET /shopping?q=tbn:ANd9GcTwl4W2FR8mlvpHqzoxJ_Lpr4v1-AlDt8gbDGgfFx5CZMzv9okAzTtM1G86sYBlLirwzIm1ORGYSjNQWHOvRO6lik0hw9_FeQpUuMbi--BbbFFDKf3SadKK"   
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Client -> Server @ : 724 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Web Request      ( 470:1a60)] "GET /shopping?q=tbn:ANd9GcRaw_l3di1F783ea44Lq-uYNASYo5w5rHAzT1LQNtFTwNzTnweOa9LLqSw0rj76KRKplzUt9hNLclXNDOd1cpcLHLZqTlKW4z4LVQDlOX8"   
+[Network Analyzer ( 470:1a60)]   (Sid: 39) Client -> Server @ : 711 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 520 bytes (SSL) (Service=HTTP)
+[Web Request      ( 470:1a60)] "GET /shopping?q=tbn:ANd9GcTKiVyxG8tV6fYD8xbmUm1Md8cmeP9ruvohjZ9h0BCfNIBYuMpROKULyp92ZFe6nGyuKYnwmgp_adqE7FsXEjpbgjlPqT4VGJZv3H1ssG32UIf8eX8xPl9d"   
+[Network Analyzer ( 470:1a60)]   (Sid: 42) Client -> Server @ : 724 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:19bc)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      ( 470:1a60)] "GET /shopping?q=tbn:ANd9GcQBIH_XBNegOC2vTyElsEa3pi0KZT_revIgMqvWm7VK_q988saoFaeDWb-DP14wzkE40abhT6R-5V2dLCNM_-D4fzIeyecpvDuy4V-R0PiQCdRH2IkR4BBB"   
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Client -> Server @ : 724 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:19bc)]   (Sid: 49) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 41) Server -> Client : 696 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 39) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 39) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 39) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 42) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 39) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 42) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 39) Server -> Client : 726 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 42) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 42) Server -> Client : 888 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 778 bytes (SSL) (Service=HTTP)
+[Web Request      ( 470:1a60)] "GET /shopping?q=tbn:ANd9GcR09377KFpalTyccYn_6RA4hpgjlZRjJBjN5B5iuswNt3nk98QsSf5xzy9JNMbx21dcncHhJV0Wfc7p-7RhwriFQxDC5JzobVT18y8n4KBKgXPxLzzaEKRbeHc"   
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Client -> Server @ : 727 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:2e64)]   (Sid: 50) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 48) Server -> Client : 198 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:2e64)]   (Sid: 50) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( 470:1a60)] "GET /shopping?q=tbn:ANd9GcSRk5IhS0RMTPEDF6H_62UMJq95fWZXzpN7vnBslZbN9Lg0zATbpQFU_I1lPpySgPnlC0FxnK5VrU-lQoecoXuuDhXTVODHSa_kdnsfQBAImnlcN__rsJwEjA"   
+[Network Analyzer ( 470:1a60)]   (Sid: 50) Client -> Server @ : 726 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 50) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 50) Server -> Client : 1328 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1a60)]   (Sid: 50) Server -> Client : 1204 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 470:1e24)]   (Sid: 51) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:1e24)]   (Sid: 51) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 470:1bb4)]   (Sid: 52) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:1bb4)]   (Sid: 52) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 470:2b7c)]   (Sid: 53) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:2b7c)] SSLAccept(ssl_id = 2703259702016 = 0000027566D59300) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:2b7c)]   (Sid: 53) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:1a60)]   (Sid: 40) Connection Terminated (by Client)
+[Network Analyzer ( 470:1748)]   (Sid: 54) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 470:1748)]   (Sid: 54) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 470:30dc)]   (Sid: 55) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470:30dc)] SSLAccept(ssl_id = 2703259657376 = 0000027566D4E4A0) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470:30dc)]   (Sid: 55) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:1a60)]   (Sid: 44) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 45) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 46) Connection Terminated (by Client)
+[Network Analyzer ( 470:21f8)] Address lookup for 198620201b5753c = 172.19.61.77
+[Network Analyzer ( 470:21f8)] Request Connection: Remote Server @ 142.250.196.10:443   (Service=)  (Sid= 56)  PROXIED!
+[Network Analyzer ( 470:1a60)]   (Sid: 47) Connection Terminated (by Client)
+[Network Analyzer ( 470: e74)]   (Sid: 56) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 470: e74)] SSLAccept(ssl_id = 2703259731776 = 0000027566D60740) Failed, ctx = 00000275667FF520, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 470: e74)]   (Sid: 56) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 470:1a60)]   (Sid: 53) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 55) Connection Terminated (by Client)
+[Network Analyzer ( 470:1a60)]   (Sid: 56) Connection Terminated (by Client)

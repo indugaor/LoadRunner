@@ -1,0 +1,10 @@
+[t34]
+FileName1=t33_CEBIP53J.json
+URL1=https://srv.buysellads.com/ads/CEBIP53J.json?segment=placement:reqresin-sponsor
+Total=1
+SnapshotXmlFile=snapshot_33.xml
+RequestHeaderFile=t34_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t34_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

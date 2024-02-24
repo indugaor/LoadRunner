@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LR Scripts\UIPT_Checks
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\lr scripts\uipt_checks\\logfile.log
+d:\lr scripts\uipt_checks\\combined_UIPT_Checks.c
+d:\lr scripts\uipt_checks\\pre_cci.c

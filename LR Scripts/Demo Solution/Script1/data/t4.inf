@@ -1,0 +1,11 @@
+[t4]
+FileName1=t4.html
+URL1=https://a.nel.cloudflare.com/report/v3?s=AnTKuE8rVjdHjuk8AGflaOgLsk6J9LBPSCIJKj3a5XniImQcR7XbWMkcyy1SNbPFYmKnBN05RlEnra5oBgunA3ICPiVhLUFMVHST0gxg5tbbi8%2BBYtyYmjlR6alTJjWoFRGbjpWi
+Total=1
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_4.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Strict-Transport-Security: max-age=10886400; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Cross-Origin-Resource-Policy: cross-origin
+Server: Golfe2
+Content-Length: 20994
+Date: Tue, 06 Feb 2024 09:58:22 GMT
+Expires: Tue, 06 Feb 2024 11:58:22 GMT
+Cache-Control: public, max-age=7200
+Age: 1977
+Last-Modified: Tue, 12 Dec 2023 18:09:08 GMT
+Content-Type: text/javascript
+Vary: Accept-Encoding
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

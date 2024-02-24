@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Tue, 06 Feb 2024 10:03:54 GMT
+Content-Type: application/javascript
+Transfer-Encoding: chunked
+Connection: keep-alive
+Last-Modified: Tue, 30 Jan 2024 18:47:37 GMT
+ETag: W/"65b94449-4d7"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5ooO50aeoedCOnyYiljdwzmyvdUeSWsTf2Vrk9s1RCKJHPu93YtW5XOuCsCB5FwVKZohRetSiDWA23wRWfzQzt7B1mvmwA0%2FwuHptKToc8onhUT4TEN8JSpm8Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 851290e318861da1-BLR
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Expires: Thu, 08 Feb 2024 10:03:54 GMT
+Cache-Control: max-age=172800
+Cache-Control: public
+Content-Encoding: gzip
+

@@ -1,0 +1,43 @@
+Virtual User Script started at: 20-02-2024 17:17:31
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Crashpad/0.8.0 WinHTTP/10.0.19041.3031 Windows_NT/10.0.19041.3155 (x64)  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\LR Scripts\ThinkingTest\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("thinking-tester-contact-list.herokuapp.com") started  	[MsgId: MMSG-26355]
+Action.c(6): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/login.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/"  	[MsgId: MMSG-26659]
+Action.c(6): web_url("thinking-tester-contact-list.herokuapp.com") was successful, 15841 body bytes, 3235 header bytes  	[MsgId: MMSG-26386]
+Action.c(42): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(42): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(51): Warning: The string '"email":"vishnu1998thulasi@gmail.com","password":"12345678"' with parameter delimiters is not a parameter.
+Action.c(51): Notify: Saving Parameter "tokenParam = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Y2IyN2QzNzc3NDAwMTM3M2YxMGMiLCJpYXQiOjE3MDg0MzAyNDZ9.UueA9hyi0bSl142NXYcH9hXQ_hEguFRCywP9bsZqVIM".
+Action.c(51): web_custom_request("login") was successful, 287 body bytes, 986 header bytes  	[MsgId: MMSG-26386]
+Action.c(63): Notify: Parameter Substitution: parameter "tokenParam" =  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Y2IyN2QzNzc3NDAwMTM3M2YxMGMiLCJpYXQiOjE3MDg0MzAyNDZ9.UueA9hyi0bSl142NXYcH9hXQ_hEguFRCywP9bsZqVIM"
+Action.c(63): Token extracted: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Y2IyN2QzNzc3NDAwMTM3M2YxMGMiLCJpYXQiOjE3MDg0MzAyNDZ9.UueA9hyi0bSl142NXYcH9hXQ_hEguFRCywP9bsZqVIM
+Action.c(65): web_url("contactList") started  	[MsgId: MMSG-26355]
+Action.c(65): Found resource "https://thinking-tester-contact-list.herokuapp.com/css/styles.css" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(65): Found resource "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(65): Found resource "https://thinking-tester-contact-list.herokuapp.com/js/contactList.js" in HTML "https://thinking-tester-contact-list.herokuapp.com/contactList"  	[MsgId: MMSG-26659]
+Action.c(65): web_url("contactList") was successful, 4709 body bytes, 3193 header bytes  	[MsgId: MMSG-26386]
+Action.c(74): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(74): Notify: Parameter Substitution: parameter "tokenParam" =  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Y2IyN2QzNzc3NDAwMTM3M2YxMGMiLCJpYXQiOjE3MDg0MzAyNDZ9.UueA9hyi0bSl142NXYcH9hXQ_hEguFRCywP9bsZqVIM"
+Action.c(74): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(74): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(77): web_custom_request("contacts") started  	[MsgId: MMSG-26355]
+Action.c(77): web_custom_request("contacts") was successful, 792 body bytes, 747 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

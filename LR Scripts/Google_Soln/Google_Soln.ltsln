@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0
+Project("CEBFA5A8-E51B-4D58-944B-35AECC5847C9") = "Google_script", "Google_script\Google_script.usr", "CEBFA5A8-E51B-4D58-944B-35AECC5847C9"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XExSIFNjcmlwdHNcR29vZ2xlX1NvbG5cR29vZ2xlX3NjcmlwdFxHb29nbGVfc2NyaXB0LnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5EOlxMUiBTY3JpcHRzXEdvb2dsZV9Tb2xuXEdvb2dsZV9zY3JpcHRcR29vZ2xlX3NjcmlwdC51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDI0LTAyLTA1VDE0OjM2OjI0LjM5Mjg4OSswNTozMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("533BF935-215C-47CE-A77B-56B3B145ABCA") = "Google_Images_Language", "..\Google_Images_Language\Google_Images_Language.usr", "533BF935-215C-47CE-A77B-56B3B145ABCA"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XExSIFNjcmlwdHNcR29vZ2xlX0ltYWdlc19MYW5ndWFnZVxHb29nbGVfSW1hZ2VzX0xhbmd1YWdlLnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5EOlxMUiBTY3JpcHRzXEdvb2dsZV9JbWFnZXNfTGFuZ3VhZ2VcR29vZ2xlX0ltYWdlc19MYW5ndWFnZS51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDI0LTAyLTA2VDEyOjAwOjIzLjk4ODU3MzgrMDU6MzA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("EA4CB3F7-6835-4780-9287-C0569601401F") = "ReqRes", "..\ReqRes\ReqRes.usr", "EA4CB3F7-6835-4780-9287-C0569601401F"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XExSIFNjcmlwdHNcUmVxUmVzXFJlcVJlcy51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+RDpcTFIgU2NyaXB0c1xSZXFSZXNcUmVxUmVzLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjQtMDItMDZUMTU6MTc6MDcuODYwMTg1OSswNTozMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+AAAAAAAAAA__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("B80A8E75-380F-4510-A4F4-2475F95698ED") = "CURA", "..\CURA\CURA.usr", "B80A8E75-380F-4510-A4F4-2475F95698ED"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XExSIFNjcmlwdHNcQ1VSQVxDVVJBLnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5EOlxMUiBTY3JpcHRzXENVUkFcQ1VSQS51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDI0LTAyLTA3VDE1OjMwOjQ5LjE1MzcxMjUrMDU6MzA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPgAAAAAAAAAAAAAAAAAAAA__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		CEBFA5A8-E51B-4D58-944B-35AECC5847C9.Debug|Any CPU.Build.0 = Debug|Any CPU
+		CEBFA5A8-E51B-4D58-944B-35AECC5847C9.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		CEBFA5A8-E51B-4D58-944B-35AECC5847C9.Release|Any CPU.Build.0 = Release|Any CPU
+		CEBFA5A8-E51B-4D58-944B-35AECC5847C9.Release|Any CPU.ActiveCfg = Release|Any CPU
+		533BF935-215C-47CE-A77B-56B3B145ABCA.Debug|Any CPU.Build.0 = Debug|Any CPU
+		533BF935-215C-47CE-A77B-56B3B145ABCA.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		533BF935-215C-47CE-A77B-56B3B145ABCA.Release|Any CPU.Build.0 = Release|Any CPU
+		533BF935-215C-47CE-A77B-56B3B145ABCA.Release|Any CPU.ActiveCfg = Release|Any CPU
+		EA4CB3F7-6835-4780-9287-C0569601401F.Debug|Any CPU.Build.0 = Debug|Any CPU
+		EA4CB3F7-6835-4780-9287-C0569601401F.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		EA4CB3F7-6835-4780-9287-C0569601401F.Release|Any CPU.Build.0 = Release|Any CPU
+		EA4CB3F7-6835-4780-9287-C0569601401F.Release|Any CPU.ActiveCfg = Release|Any CPU
+		B80A8E75-380F-4510-A4F4-2475F95698ED.Debug|Any CPU.Build.0 = Debug|Any CPU
+		B80A8E75-380F-4510-A4F4-2475F95698ED.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		B80A8E75-380F-4510-A4F4-2475F95698ED.Release|Any CPU.Build.0 = Release|Any CPU
+		B80A8E75-380F-4510-A4F4-2475F95698ED.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

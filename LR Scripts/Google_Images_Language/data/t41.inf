@@ -1,0 +1,10 @@
+[t41]
+FileName1=t35.txt
+URL1=https://www.google-analytics.com/j/collect?v=1&_v=j101&a=379021412&t=pageview&_s=1&dl=https%3A%2F%2Freqres.in%2F&ul=en-gb&de=UTF-8&dt=Reqres%20-%20A%20hosted%20REST-API%20ready%20to%20respond%20to%20your%20AJAX%20requests&sd=24-bit&sr=1280x720&vp=1263x593&je=0&_u=IEBAAEABAAAAACAAI~&jid=673040654&gjid=566140478&cid=428343557.1707213281&tid=UA-55888877-1&_gid=1026438250.1707213281&_r=1&_slc=1&z=1456414954
+Total=1
+SnapshotXmlFile=snapshot_40.xml
+RequestHeaderFile=t41_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t41_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t59]
+FileName1=t59.html
+URL1=https://srv.carbonads.net/ads/CK7DT53I.json?segment=placement:reqresin
+Total=1
+RequestHeaderFile=t59_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t59_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_57.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

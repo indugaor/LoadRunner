@@ -1,0 +1,66 @@
+Virtual User Script started at: 09-02-2024 11:31:24
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\LR Scripts\BestPratices\UITPS1\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(12): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(12): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(14): web_url("seed") started  	[MsgId: MMSG-26355]
+vuser_init.c(14): HTML parsing not performed for Content-Type "application/octet-stream" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=121"  	[MsgId: MMSG-26547]
+vuser_init.c(14): web_url("seed") was successful, 371783 body bytes, 377 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(23): web_url("uitestingplayground.com") started  	[MsgId: MMSG-26355]
+vuser_init.c(23): Found resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(23): Found resource "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(23): Found resource "http://uitestingplayground.com/static/prism.css" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(23): Found resource "http://uitestingplayground.com/static/style.css" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(23): Found resource "http://uitestingplayground.com/static/cube.png" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(23): Found resource "https://buttons.github.io/buttons.js" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(23): Found resource "http://uitestingplayground.com/static/prism.js" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(23): Found resource "https://code.jquery.com/jquery-3.2.1.min.js" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(23): Found resource "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(23): Found resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" in HTML "http://uitestingplayground.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(23): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+vuser_init.c(23): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+vuser_init.c(23): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+vuser_init.c(23): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+vuser_init.c(23): web_url("uitestingplayground.com") highest severity level was "warning", 266234 body bytes, 7014 header bytes  	[MsgId: MMSG-26388]
+vuser_init.c(33): web_url("fork.png") started  	[MsgId: MMSG-26355]
+vuser_init.c(33): web_url("fork.png") was successful, 324 body bytes, 305 header bytes  	[MsgId: MMSG-26386]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(11): web_url("dynamictable") started  	[MsgId: MMSG-26355]
+Action.c(11): Resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(11): Resource "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(11): Found resource "http://uitestingplayground.com/static/prism.css" in HTML "http://uitestingplayground.com/dynamictable"  	[MsgId: MMSG-26659]
+Action.c(11): Found resource "http://uitestingplayground.com/static/style.css" in HTML "http://uitestingplayground.com/dynamictable"  	[MsgId: MMSG-26659]
+Action.c(11): Resource "https://buttons.github.io/buttons.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(11): Found resource "http://uitestingplayground.com/static/prism.js" in HTML "http://uitestingplayground.com/dynamictable"  	[MsgId: MMSG-26659]
+Action.c(11): Resource "https://code.jquery.com/jquery-3.2.1.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(11): Resource "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(11): Resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(11): web_url("dynamictable") was successful, 2084 body bytes, 1091 header bytes  	[MsgId: MMSG-26386]
+Action.c(29): web_url("dynamicid") started  	[MsgId: MMSG-26355]
+Action.c(29): Resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(29): Resource "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(29): Found resource "http://uitestingplayground.com/static/prism.css" in HTML "http://uitestingplayground.com/dynamicid"  	[MsgId: MMSG-26659]
+Action.c(29): Found resource "http://uitestingplayground.com/static/style.css" in HTML "http://uitestingplayground.com/dynamicid"  	[MsgId: MMSG-26659]
+Action.c(29): Resource "https://buttons.github.io/buttons.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(29): Found resource "http://uitestingplayground.com/static/prism.js" in HTML "http://uitestingplayground.com/dynamicid"  	[MsgId: MMSG-26659]
+Action.c(29): Resource "https://code.jquery.com/jquery-3.2.1.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(29): Resource "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(29): Resource "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(29): web_url("dynamicid") was successful, 1862 body bytes, 1090 header bytes  	[MsgId: MMSG-26386]
+Action.c(41): web_url("threatListUpdates:fetch") started  	[MsgId: MMSG-26355]
+Action.c(41): Warning -26626: HTTP Status-Code=404 (Not Found) for "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTIxLjAuNjE2Ny4xNDAaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARC4lRUaAhgLpPlA-SIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQwOkNGgIYC2pMBAgiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABEPngDRoCGAvK2ts4IgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARC2rwcaAhgLYb6OcyIEIAEgAigBGigIARAIGhoKDQgBEAgYASIDMDAxMAQQ3DcaAhgLwLZjkiIEIAEgAigEGikIDxABGhsKDQgPEAYYASIDMDAxMAEQgKwCGgIYC7msMTYiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgLYjna-CIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIxoCGAuXnkjLIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARCxFRoCGAv0T3H1IgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARCMjQIaAhgLXQVBPyIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQ-K8OGgIYC0DfqcYiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEI0hGgIYC8a71dQiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"  	[MsgId: MWAR-26626]
+Action.c(41): web_url("threatListUpdates:fetch") highest severity level was "warning", 0 body bytes, 286 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
